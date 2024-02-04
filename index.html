@@ -1,109 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Adrian PC</title>
-</head>
-<body class="w3-black">
-    <!-- Icon Bar (Sidebar - hidden on small screens) -->
-    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-        <!-- Avatar image in top left corner -->
-        <img src="/w3images/avatar_smoke.jpg" alt="photo_profile">
-        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
-            <i class="fa fa-user w3-xxlarge"></i>
-            <p>INICIO</p>
-        </a>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://www.w3schools.com/w3css/4/w3.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Montserrat"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <title>Adrian PC</title>
+    </head>
+    <body class="w3-black">
+        <!-- Icon Bar (Sidebar - hidden on small screens) -->
+        <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+            <!-- Avatar image in top left corner -->
+            <img src="/w3images/avatar_smoke.jpg" alt="photo_profile" />
+            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+                <i class="fa fa-user w3-xxlarge"></i>
+                <p>INICIO</p>
+            </a>
 
-        <!--about section left-->
-        <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-            <i class="fa fa-user w3-xxlarge"></i>
-            <p>SOBRE MI</p>
-        </a>
+            <!--about section left-->
+            <a
+                href="#about"
+                class="w3-bar-item w3-button w3-padding-large w3-hover-black"
+            >
+                <i class="fa fa-user w3-xxlarge"></i>
+                <p>SOBRE MI</p>
+            </a>
 
-        <!--project section left-->
-        <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-            <i class="fa fa-eye w3-xxlarge"></i>
-            <p>Proyectos</p>
-        </a>
+            <!--project section left-->
+            <a
+                href="#projects"
+                class="w3-bar-item w3-button w3-padding-large w3-hover-black"
+            >
+                <i class="fa fa-eye w3-xxlarge"></i>
+                <p>Proyectos</p>
+            </a>
 
-        <!--contact section left-->
-        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-            <i class="fa fa-envelope w3-xxlarge"></i>
-            <p>CONTACTO</p>
-        </a>
-    </nav>
-    <!-- Navbar on small screens (Hidden on medium and large screens) -->
-    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-        <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-            <a href="#" class="w3-bar-item w3-button" style="width:25% !important">INICIO</a>
-            <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">SOBRE MI</a>
-            <a href="#projects" class="w3-bar-item w3-button" style="width:25% !important">PROYECTOS</a>
-            <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACTO</a>
-        </div>
-    </div>
-    
-    <!-- Page Content-->
-    <div class="w3-padding-large" id="main">
-          <!-- Header/Home -->
-        <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-            <h1 class="w3-jumbo"> <span class="w3-hide-small"></span> Adrian Peña</h1>
-            <p>Ingeniero Agroindustrial y Analista de datos</p>
-            <img src="/w3images/man_smoke.jpg" alt="boy" class="w3-image" width="992" height="1108">
-        </header>
-
-        <!---About Section-->
-        <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-            <h2 class="w3-text-light-grey">Adrian Peña</h2>
-            <hr style="width:200px" class="w3-opacity">   <!--Check this code-->
-            <p>Ingeniero Agroindustrial con tres años de experiencia en el sector público, apasionado por los datos y todo lo referent
-                al analisis de datos, cuento con especialización en analitica y big data.
-            </p>
-
-            <!--Skill Section-->
-            <h3 class="w3-padding-16 w3-text-light-grey">Mis habilidades</h3>
-            <p class="w3-wide">Python</p>
-            <div class="w3-white">
-                <div class="w3-dark-grey" style="height:28px;width:50%"></div> <!--Check this code-->
+            <!--contact section left-->
+            <a
+                href="#contact"
+                class="w3-bar-item w3-button w3-padding-large w3-hover-black"
+            >
+                <i class="fa fa-envelope w3-xxlarge"></i>
+                <p>CONTACTO</p>
+            </a>
+        </nav>
+        <!-- Navbar on small screens (Hidden on medium and large screens) -->
+        <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+            <div
+                class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small"
+            >
+                <a
+                    href="#"
+                    class="w3-bar-item w3-button"
+                    style="width: 25% !important"
+                    >INICIO</a
+                >
+                <a
+                    href="#about"
+                    class="w3-bar-item w3-button"
+                    style="width: 25% !important"
+                    >SOBRE MI</a
+                >
+                <a
+                    href="#projects"
+                    class="w3-bar-item w3-button"
+                    style="width: 25% !important"
+                    >PROYECTOS</a
+                >
+                <a
+                    href="#contact"
+                    class="w3-bar-item w3-button"
+                    style="width: 25% !important"
+                    >CONTACTO</a
+                >
             </div>
-            <p class="w3-wide">Power BI</p>
-            <div class="w3-white">
-                <div class="w3-dark-grey" style="height:28px;width:85%"></div>
-            </div>
-            <p class="w3-wide">SQL</p>
-            <div  class="w3-white">
-                <div class="w3-dark-grey" style="height:28px;width:80%"></div>
-            </div><br>
-
-            <!--Education Section-->
-            <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
-                <div class="w3-quarter w3-section">
-                    <span class="w3-xlarge">Especialización en Analitica y Big Data</span><br>
-                    IU Digital de Antioquia
-                </div>
-                <div class="w3-quarter w3-section">
-                    <span class="w3-xlarge">Ingenieria Agroindustrial</span><br>
-                    Universidad del Cauca
-                </div>
-            </div>
-
-            <!--PDF Resume-->
-            <button class="w3-button w3-light-grey w3-padding-large w3-section">
-                <i class="fa fa-download"></i> Descargar Hoja de Vida
-            </button>
-
-
-
         </div>
 
+        <!-- Page Content-->
+        <div class="w3-padding-large" id="main">
+            <!-- Header/Home -->
+            <header
+                class="w3-container w3-padding-32 w3-center w3-black"
+                id="home"
+            >
+                <h1 class="w3-jumbo">
+                    <span class="w3-hide-small"></span> Adrian Peña
+                </h1>
+                <p>Ingeniero Agroindustrial y Analista de datos</p>
+                <img
+                    src="/w3images/man_smoke.jpg"
+                    alt="boy"
+                    class="w3-image"
+                    width="992"
+                    height="1108"
+                />
+            </header>
 
+            <!---About Section-->
+            <div
+                class="w3-content w3-justify w3-text-grey w3-padding-64"
+                id="about"
+            >
+                <h2 class="w3-text-light-grey">Adrian Peña</h2>
+                <hr style="width: 200px" class="w3-opacity" />
+                <!--Check this code-->
+                <p>
+                    Ingeniero Agroindustrial con tres años de experiencia en el
+                    sector público, apasionado por los datos y todo lo referent
+                    al analisis de datos, cuento con especialización en
+                    analitica y big data.
+                </p>
 
+                <!--Skill Section-->
+                <h3 class="w3-padding-16 w3-text-light-grey">
+                    Mis habilidades
+                </h3>
+                <p class="w3-wide">Python</p>
+                <div class="w3-white">
+                    <div
+                        class="w3-dark-grey"
+                        style="height: 28px; width: 50%"
+                    ></div>
+                    <!--Check this code-->
+                </div>
+                <p class="w3-wide">Power BI</p>
+                <div class="w3-white">
+                    <div
+                        class="w3-dark-grey"
+                        style="height: 28px; width: 85%"
+                    ></div>
+                </div>
+                <p class="w3-wide">SQL</p>
+                <div class="w3-white">
+                    <div
+                        class="w3-dark-grey"
+                        style="height: 28px; width: 80%"
+                    ></div>
+                </div>
+                <br />
 
-    </div>
+                <!--Education Section-->
+                <div
+                    class="w3-row w3-center w3-padding-16 w3-section w3-light-grey"
+                >
+                    <div class="w3-quarter w3-section">
+                        <span class="w3-xlarge"
+                            >Especialización en Analitica y Big Data</span
+                        ><br />
+                        IU Digital de Antioquia
+                    </div>
+                    <div class="w3-quarter w3-section">
+                        <span class="w3-xlarge">Ingenieria Agroindustrial</span
+                        ><br />
+                        Universidad del Cauca
+                    </div>
+                </div>
 
-    
-</body>
+                <!--PDF Resume-->
+                <button
+                    class="w3-button w3-light-grey w3-padding-large w3-section"
+                >
+                    <i class="fa fa-download"></i> Descargar Hoja de Vida
+                </button>
+
+                <!--Experience-->
+                <h3 class="w3-padding-24 w3-text-light-grey">Experiencia</h3>
+                <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+                <p><span class="w3-large w3-margin-right">Apoyo profesional en Ingenieria Agroindustrial</span> Gobernación del Putumayo</p>
+                <p>Secretaria de Productividad y Competitividad Departamental</p><br>
+
+                <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+                <p><span class="w3-large w3-margin-right">Apoyo profesional en Ingenieria Agroindustrial</span> Alcaldia de Puerto Guzmán</p>
+                <p>Secretaria de Desarrollo Agropecuario</p>
+                <!--End About Section-->
+            </div>
+
+            
+        </div>
+    </body>
 </html>
